@@ -22,14 +22,14 @@ DOCS_TXT_MAN3 = \
 	afSetVirtualSampleFormat.3.txt \
 	afWriteFrames.3.txt
 
-DOCS_TXT = $(DOCS_TXT_MAN1) $(DOCS_TXT_MAN3)
+#DOCS_TXT = $(DOCS_TXT_MAN1) $(DOCS_TXT_MAN3)
 
 EXTRA_DIST = \
 	$(DOCS_TXT) \
 	asciidoc.conf
 
-DOCS_MAN1 = $(DOCS_TXT_MAN1:.txt=)
-DOCS_MAN3 = $(DOCS_TXT_MAN3:.txt=)
+#DOCS_MAN1 = $(DOCS_TXT_MAN1:.txt=)
+#DOCS_MAN3 = $(DOCS_TXT_MAN3:.txt=)
 #DOCS_MAN3_EXTRA = \
 #	afInitRate.3 \
 #	afGetDataOffset.3 \
