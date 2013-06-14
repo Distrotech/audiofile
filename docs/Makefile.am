@@ -30,22 +30,19 @@ EXTRA_DIST = \
 
 DOCS_MAN1 = $(DOCS_TXT_MAN1:.txt=)
 DOCS_MAN3 = $(DOCS_TXT_MAN3:.txt=)
-DOCS_MAN3_EXTRA = \
-	afInitAESChannelData.3 \
-	afInitByteOrder.3 \
-	afInitChannels.3 \
-	afInitRate.3 \
-	afGetDataOffset.3 \
-	afGetTrackBytes.3 \
-	afQueryLong.3 \
-	afQueryDouble.3 \
-	afQueryPointer.3 \
-	afSeekMisc.3 \
-	afSetVirtualByteOrder.3 \
-	afSetVirtualChannels.3 \
-	afSetVirtualPCMMapping.3 \
-	afTellFrame.3 \
-	afWriteMisc.3
+#DOCS_MAN3_EXTRA = \
+#	afInitRate.3 \
+#	afGetDataOffset.3 \
+#	afGetTrackBytes.3 \
+#	afQueryLong.3 \
+#	afQueryDouble.3 \
+#	afQueryPointer.3 \
+#	afSeekMisc.3 \
+#	afSetVirtualByteOrder.3 \
+#	afSetVirtualChannels.3 \
+#	afSetVirtualPCMMapping.3 \
+#	afTellFrame.3 \
+#	afWriteMisc.3
 
 DOCS_HTML = $(DOCS_TXT:.txt=.html)
 
